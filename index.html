@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="shortcut icon" href="/todo-app-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="containerr">
+        <div class="todo-app w-[100%] bg-[white] rounded-[10px]" style="margin: 100px auto 20px; padding: 40px 30px 70px;">
+            <form id="form" action="">
+                <h2 class="text-[2rem] font-bold">To-Do List <img class="w-[70px]" src="/todo-app-logo.png" alt=""></h2>
+                <div class="row">
+                    <input type="text" class="text-[black] p-3" id="input-box" placeholder="Add your text">
+                    <button onclick="addTask()" class="text-[white] p-4 bg-[blue]">Add Task</button>
+                </div>
+                <ul id="list-container">
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
